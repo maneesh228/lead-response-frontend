@@ -39,7 +39,7 @@ function LeadDetails({ lead, onClose }) {
       ) : (
         <p>No AI analysis available.</p>
       )}
-      <button onClick={onClose}>Close</button>
+      <button className="lead-close-btn" onClick={onClose}>Close</button>
     </div>
   );
 }
